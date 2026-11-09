@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bonehoard Support</title>
+<meta http-equiv="refresh" content="0; url=index.html">
+<link rel="canonical" href="index.html">
+<link rel="stylesheet" href="style.css">
+<script>
+// Dil çapasını koru: support.html#tr -> index.html#tr
+(function () {
+  var h = location.hash || "";
+  var t = "index.html" + h;
+  var a = document.getElementById("go");
+  if (a) a.href = t;
+  location.replace(t);
+})();
+</script>
+</head>
+<body>
+<main>
+<h1>Bonehoard</h1>
+<p class="sub">Support · Destek · Hilfe · Assistance · Soporte · Поддержка</p>
+<p><a id="go" href="index.html">Continue to the support page</a></p>
+<footer>© 2026 Bonehoard</footer>
+</main>
+<script>
+(function(){var a=document.getElementById("go");if(a)a.href="index.html"+(location.hash||"");})();
+</script>
+</body>
+</html>
